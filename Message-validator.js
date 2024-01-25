@@ -40,3 +40,11 @@ function isAValidMessage(message){
 }
 
 // or
+
+const isAValidMessage = message => {
+  const numbers = message.match(/\d+/g) || [];
+  const words = message.split(/\d+/g);
+  words.shift();
+  
+  return numbers.every((item, index) => words[index] && words[index].length === (+item));
+}
