@@ -15,3 +15,6 @@ Notes:
   otherwise the message is invalid: e.g. "hello5" and "2hi2" are invalid.
   If the message is an empty string, you should return true.
 */
+
+
+// Solution
