@@ -38,3 +38,5 @@ function isAValidMessage(message){
   }
   return true;
 }
+
+// or
